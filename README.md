@@ -7,12 +7,16 @@ In this application, you will explore a dataset from kaggle. The original datase
   ### Input Dateset: https://github.com/aaghouse/ML_UsedCarsPrice/blob/main/data.zip
   ### Google colab Notebook location: https://github.com/aaghouse/ML_UsedCarsPrice/blob/main/What_features_are_valuable_in_used_car.ipynb
 
+#### CRoss Industry Standard Process for Data Mining (CRISP-DM)
 <img width="374" alt="crisp" src="https://github.com/aaghouse/ML_UsedCarsPrice/assets/90729963/2630ea14-df0c-430d-a03d-a832e1d72848">
 
+#### Input Dataset inadequacies 
 ![Input_data_level_of_inconsistancies_on_input](https://github.com/aaghouse/ML_UsedCarsPrice/assets/90729963/09123138-934c-424f-a029-c574f7a69931)
 
+#### Models tried, evaluated, scoring, Feature Selection and Mean Squared errors summary capture
 ![Modeling_evaluation_results](https://github.com/aaghouse/ML_UsedCarsPrice/assets/90729963/1b6f9314-b008-4d7f-9413-6ddf194ffd16)
 
+#### Sample test dataset vs prediction from the chosen model
 ![Choosen_model_prediction_vs_test_data_sample_for_the_client](https://github.com/aaghouse/ML_UsedCarsPrice/assets/90729963/986c7d99-a601-45c1-9b55-ff891bfe8414)
 
 ## Summary
@@ -25,4 +29,5 @@ Other critical fields have large number of null values such as size(71.76%), cyl
 Findings Region and state where the used cars are seems to dictate the price. Great insights if you are planing to build inventory and or deciding to sell to that specific region. Odometer reading seems to also be one of the highest indicator of the price and what customers will look for to aquire a car. The model predicts just these two alone are not enough we do need to read other constraints or variables. Deduction from the top model.
 
 Other models that we researched considers cylinders, size and condition to be the top features that will decide the price of the used car.
+
 ### Analysis with summary https://github.com/aaghouse/ML_UsedCarsPrice/blob/main/Reportwithfindings.md

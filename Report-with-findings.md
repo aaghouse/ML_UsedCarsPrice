@@ -12,6 +12,7 @@ We are provided with a dataset of used car sales with 426k cars or transactions 
 4.Combined region and state to region_state, dropped individual region and state fields.
 
 ##Modeling
+
 ####Choosing the Features and the right Model
 
 1.Started with Ridge model, tried scalled and unscalled data. Scalled yielded better results. Permutation importance suggested reion_state and odometer to have the best impact on price and would be ideal to chooe to reduce model features. MSE for test data set was high

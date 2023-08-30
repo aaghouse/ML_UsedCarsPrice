@@ -4,7 +4,7 @@ We are provided with a dataset of used car sales with 426k cars or transactions 
 
 ###Data Understanding & Data Prepatation(cleaning and sanitizing):
 
-<Input Data understanding image> 
+<Input Data understanding image>
 
 (1) Data Cleaning, dropping all rows with Nan/Zero values the size reduced from [426880 rows to 80170 rows] Dropping 82% of the data set would yield bad results. Hence Imputing values (with KNNImputer) that are missign/zero are essential. This was done to treat all zero and missing values in price and odometer.
 

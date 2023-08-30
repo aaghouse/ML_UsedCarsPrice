@@ -63,6 +63,8 @@ Iteration (1) LinearRegression Recommendation: First Run:** n_features_to_select
 
 Iteration (2) LinearRegression Following Recomendation Features from best selector: Index(['cylinders_labenc', 'size_labenc', 'condition_labenc'], dtype='object') test_mse 110709248246897.78 test MSE is getting worst train_mse 225976928803183.84
 
+![Choosen_model_prediction_vs_test_data_sample_for_the_client](https://github.com/aaghouse/ML_UsedCarsPrice/assets/90729963/986c7d99-a601-45c1-9b55-ff891bfe8414)
+
 Deployment Summary and recomendation to the car dealer: 
 
 Data Science and Input data Input data is critical to data science, prediction models and stability of the prediction models. Other way of looking at it is garbege in garbege out. Quality data in will produce Quality prediction results and study.

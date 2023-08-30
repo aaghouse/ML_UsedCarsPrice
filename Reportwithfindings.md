@@ -39,6 +39,11 @@ Tried scoring on Ridge, LASSO, and Linear regression.
 LinearRegression performend better (poly degree=1), MSE on test dataset improved slightly as well.
 Performed GridSearch on hyperparameters on this LinearRegression model and decided on model__fit_intercept: False & model__positive: True this improved the model performance a ittle better with improved MSE on test dataset as well.
 
+Final Model Choosen: LinearRegression with polynomial(degree=1), based on better MSE for test data set, hyperparameter(model__fit_intercept: False and model__positive: True), Its also a model which uses region_state & odometer as influential factors on the outcome price.
+Among various regressions tried are LASSO, Ridge and linerRegression. Pipelining was used to implement SFS, StandardScalar and polynomial.
+GridSearch was performed to decide the hyper parameters on LinearRegression Model.
+IVF and Correlatoin heatmaps were used to decide to lever the model complexity/feature reduction.
+
 <Modeling Image with results and decision factors>
 ![Modeling_evaluation_results](https://github.com/aaghouse/ML_UsedCarsPrice/assets/90729963/a15bdbfb-ba59-4397-9da9-76385b3750f2)
 Summary:

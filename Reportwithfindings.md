@@ -5,6 +5,8 @@ We are provided with a dataset of used car sales with 426k cars or transactions 
 Data Understanding & Data Prepatation(cleaning and sanitizing):
 
 <Input Data understanding image> 
+![image](https://github.com/aaghouse/ML_UsedCarsPrice/assets/90729963/4be812a3-4b7e-4419-a188-0c8539b7f264)
+
 
 (1) Data Cleaning, dropping all rows with Nan/Zero values the size reduced from [426880 rows to 80170 rows] Dropping 82% of the data set would yield bad results. Hence Imputing values (with KNNImputer) that are missign/zero are essential. This was done to treat all zero and missing values in price and odometer.
 

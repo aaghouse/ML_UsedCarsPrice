@@ -9,11 +9,13 @@ Data Understanding & Data Prepatation(cleaning and sanitizing):
 
 (1) Data Cleaning, dropping all rows with Nan/Zero values the size reduced from [426880 rows to 80170 rows] Dropping 82% of the data set would yield bad results. Hence Imputing values (with KNNImputer) that are missign/zero are essential. This was done to treat all zero and missing values in price and odometer.
 
-(2) KNNImputer was also choosen to impute cylinders, size, condition, title_status & drive. KNNImputer also fixes missing values with feature mean.  All these columns were also encoded with JamesSteinEncoder for Categorical encoding.
+(2) KNNImputer was also choosen to impute cylinders, size, condition, title_status & drive. KNNImputer also fixes missing values with feature mean.  
 
-(3) Dropped color, model, id and VIN from the dataset that does not add value to the price of the car.
+(3) All these columns in (2) were also encoded with JamesSteinEncoder for Categorical encoding.
 
-(4) Combined region and state to region_state, dropped individual region and state fields.
+(4) Dropped color, model, id and VIN from the dataset that does not add value to the price of the car.
+
+(5) Combined region and state to region_state, dropped individual region and state fields.
 
 Modeling:
 
@@ -42,7 +44,7 @@ Performed GridSearch on hyperparameters on this LinearRegression model and decid
 Final Model Choosen: LinearRegression with polynomial(degree=1), based on better MSE for test data set, hyperparameter(model__fit_intercept: False and model__positive: True), Its also a model which uses region_state & odometer as influential factors on the outcome price.
 Among various regressions tried are LASSO, Ridge and linerRegression. Pipelining was used to implement SFS, StandardScalar and polynomial.
 GridSearch was performed to decide the hyper parameters on LinearRegression Model.
-IVF and Correlatoin heatmaps were used to decide to lever the model complexity/feature reduction.
+IVF and Correlatoin heatmaps were used to decide on model complexity/feature reduction.
 
 <Modeling Image with results and decision factors>
 ![Modeling_evaluation_results](https://github.com/aaghouse/ML_UsedCarsPrice/assets/90729963/a15bdbfb-ba59-4397-9da9-76385b3750f2)
@@ -57,9 +59,9 @@ Next Steps as a followup:
 
 Starting MSE's selector_train_mse 225976476575947.16 selector_test_mse 110708549952295.33
 
-Iteration 1 LinearRegression Recommendation: First Run:** n_features_to_select=3 Features from best selector: Index(['cylinders_labenc', 'size_labenc', 'condition_labenc'], dtype='object')
+Iteration (1) LinearRegression Recommendation: First Run:** n_features_to_select=3 Features from best selector: Index(['cylinders_labenc', 'size_labenc', 'condition_labenc'], dtype='object')
 
-Iteration 2 LinearRegression Following Recomendation Features from best selector: Index(['cylinders_labenc', 'size_labenc', 'condition_labenc'], dtype='object') test_mse 110709248246897.78 test MSE is getting worst train_mse 225976928803183.84
+Iteration (2) LinearRegression Following Recomendation Features from best selector: Index(['cylinders_labenc', 'size_labenc', 'condition_labenc'], dtype='object') test_mse 110709248246897.78 test MSE is getting worst train_mse 225976928803183.84
 
 Deployment Summary and recomendation to the car dealer: 
 

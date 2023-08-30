@@ -5,6 +5,7 @@ We are provided with a dataset of used car sales with 426k cars or transactions 
 Data Understanding & Data Prepatation(cleaning and sanitizing):
 
 <Input Data understanding image> 
+
 ![Input_data_level_of_inconsistancies_on_input](https://github.com/aaghouse/ML_UsedCarsPrice/assets/90729963/16e5d85b-8bb1-4d3d-89d7-811add14a031)
 
 (1) Data Cleaning, dropping all rows with Nan/Zero values the size reduced from [426880 rows to 80170 rows] Dropping 82% of the data set would yield bad results. Hence Imputing values (with KNNImputer) that are missign/zero are essential. This was done to treat all zero and missing values in price and odometer.
@@ -30,11 +31,14 @@ Choosing the Features and the right Model
 Scoring model with reduced features:
 
 <correlation heatmep image>
+  
 ![correlation-heat-map](https://github.com/aaghouse/ML_UsedCarsPrice/assets/90729963/cfc05b58-fce9-4293-b7d9-74486c0deb69)
 
 <IVF with all features image>
 <IVF removing cylinder and year feature image>
+
 ![VIF_to_reduce_model_complexity](https://github.com/aaghouse/ML_UsedCarsPrice/assets/90729963/e9c9e9cb-a82e-4657-b161-cd7304f344ae)
+
 ![VIF_to_reduce_model_complexity_reduced](https://github.com/aaghouse/ML_UsedCarsPrice/assets/90729963/966a827e-c1c9-499a-8e82-20ffca2c0563)
 
 Tried scoring on Ridge, LASSO, and Linear regression.
@@ -48,8 +52,8 @@ IVF and Correlatoin heatmaps were used to decide on model complexity/feature red
 
 <Modeling Image with results and decision factors>
 ![Modeling_evaluation_results](https://github.com/aaghouse/ML_UsedCarsPrice/assets/90729963/a15bdbfb-ba59-4397-9da9-76385b3750f2)
-Summary:
 
+Summary:
 Summary Input dataset for Analysis is missing critical large 80+% which contributes to a large extent negative model stability. Given the data set we can say region_state where used cars are sold and odomer reading are the most critical to get the best price for the car.
 Best model to use to predict would be LinearRegression, polunomial degree=1, hyper parameters model__fit_intercept: False & model__positive: True. Which means there has to be a compensating factor in addition to the data provided to get the best price of the used car.
 Next Steps Iterate throguh the model LinearRegression, go throguh grid search to identify better features combination. Then rerun the model to see if it would effectively improve the model score and MSE values.

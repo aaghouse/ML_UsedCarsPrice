@@ -14,12 +14,12 @@ In this application, you will explore a dataset from kaggle. The original datase
 ![Modeling_evaluation_results](https://github.com/aaghouse/ML_UsedCarsPrice/assets/90729963/1b6f9314-b008-4d7f-9413-6ddf194ffd16)
 
 ## Summary
-In Data Science input data is critical to data science, prediction models and stability of the prediction models. Other way of looking at it is garbege in garbege out. Quality data in will produce Quality prediction results and study.
+Input data is critical to data science, prediction models and stability of the models. Other way of looking at it is garbege in garbege out. Quality data in will produce Quality prediction results and valuable study.
 
 Input data has a total of 426880 records. Some of the critical data such as price and odometer has zero values, (7.7% and 0.46%) respectively. This can be effectively treated and we did that to derive meaningful results.
 
 Other critical fields have large number of null values such as size(71.76%), cylinders(41.62%), condition(40.78%), manufacturer(4.13%) and Drive(30.58%) With this many number of null values reasonable prediction becomes just below average and unstable. With that said we have tried our best to resonably predict and highlight what is important for the customers when they buy used cars.
 
-Findings Region and state where the used cars are seems to dictate the price. Great insights if you are planing to build inventory and or deciding to sell to that specific region. Odometer reading seems to be one of the highest indicator of the price and what customers will look for to aquire a car. The model also predicts just these two alone are not enough we do need to read other constraints or variables. Deduction from the top model.
+Findings Region and state where the used cars are seems to dictate the price. Great insights if you are planing to build inventory and or deciding to sell to that specific region. Odometer reading seems to also be one of the highest indicator of the price and what customers will look for to aquire a car. The model predicts just these two alone are not enough we do need to read other constraints or variables. Deduction from the top model.
 
-Other models that we researched considers cylinters, size and condition to be the top features that will decide the price of the used car.
+Other models that we researched considers cylinders, size and condition to be the top features that will decide the price of the used car.

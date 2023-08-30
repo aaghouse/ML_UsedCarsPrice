@@ -28,6 +28,8 @@ Choosing the Features and the right Model
 Scoring model with reduced features:
 
 <correlation heatmep image>
+![correlation-heat-map](https://github.com/aaghouse/ML_UsedCarsPrice/assets/90729963/cfc05b58-fce9-4293-b7d9-74486c0deb69)
+
 <IVF with all features image>
 <IVF removing cylinder and year feature image>
 ![VIF_to_reduce_model_complexity](https://github.com/aaghouse/ML_UsedCarsPrice/assets/90729963/e9c9e9cb-a82e-4657-b161-cd7304f344ae)

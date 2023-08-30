@@ -1,17 +1,17 @@
-##Business Understanding
+Business Understanding:
 
 We are provided with a dataset of used car sales with 426k cars or transactions or records. Our task is to analyze the data using the industry standard CRISP-DM processes and identify key drivers for the car prices. Make necessary recomendation to the dealership.
 
-##Data Understanding & Data Prepatation(cleaning and sanitizing)
+Data Understanding & Data Prepatation(cleaning and sanitizing):
 
 <Input Data understanding image> 
 
-1.Data Cleaning, dropping all rows with Nan/Zero values the size reduced from [426880 rows to 80170 rows] Dropping 82% of the data set would yield bad results. Hence Imputing values (with KNNImputer) that are missign/zero are essential. This was done to treat all zero and missing values in price and odometer.
-2.KNNImputer was also choosen to impute cylinders, size, condition, title_status & drive. KNNImputer also fixes missing values with feature mean. All these columns were also encoded with JamesSteinEncoder for Categorical encoding.
-3.Dropped color, model, id and VIN from the dataset that does not add value to the price of the car.
-4.Combined region and state to region_state, dropped individual region and state fields.
+  1.Data Cleaning, dropping all rows with Nan/Zero values the size reduced from [426880 rows to 80170 rows] Dropping 82% of the data set would yield     bad results. Hence Imputing values (with KNNImputer) that are missign/zero are essential. This was done to treat all zero and missing values in      price and odometer.
+  2.KNNImputer was also choosen to impute cylinders, size, condition, title_status & drive. KNNImputer also fixes missing values with feature mean.       All these columns were also encoded with JamesSteinEncoder for Categorical encoding.
+  3.Dropped color, model, id and VIN from the dataset that does not add value to the price of the car.
+  4.Combined region and state to region_state, dropped individual region and state fields.
 
-##Modeling
+Modeling:
 
 ####Choosing the Features and the right Model
 

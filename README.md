@@ -4,8 +4,8 @@ What drives the price of a used car?
 
 In this application, you will explore a dataset from kaggle. The original dataset contained information on 3 million used cars. The provided dataset contains information on 426K cars to ensure speed of processing. Your goal is to understand what factors make a car more or less expensive. As a result of your analysis, you should provide clear recommendations to your client -- a used car dealership -- as to what consumers value in a used car.
 
-## Input Dateset: https://github.com/aaghouse/ML_UsedCarsPrice/blob/main/data.zip
-## Google colab Notebook location: https://github.com/aaghouse/ML_UsedCarsPrice/blob/main/What_features_are_valuable_in_used_car.ipynb
+  # Input Dateset: https://github.com/aaghouse/ML_UsedCarsPrice/blob/main/data.zip
+  # Google colab Notebook location: https://github.com/aaghouse/ML_UsedCarsPrice/blob/main/What_features_are_valuable_in_used_car.ipynb
 
 <img width="374" alt="crisp" src="https://github.com/aaghouse/ML_UsedCarsPrice/assets/90729963/2630ea14-df0c-430d-a03d-a832e1d72848">
 

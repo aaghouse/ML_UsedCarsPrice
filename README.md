@@ -6,8 +6,11 @@ In this application, you will explore a dataset from kaggle. The original datase
 
 ## Input Dateset: https://github.com/aaghouse/ML_UsedCarsPrice/blob/main/data.zip
 ## Google colab Notebook location: https://github.com/aaghouse/ML_UsedCarsPrice/blob/main/What_features_are_valuable_in_used_car.ipynb
+
 <img width="374" alt="crisp" src="https://github.com/aaghouse/ML_UsedCarsPrice/assets/90729963/2630ea14-df0c-430d-a03d-a832e1d72848">
+
 ![Input_data_level_of_inconsistancies_on_input](https://github.com/aaghouse/ML_UsedCarsPrice/assets/90729963/09123138-934c-424f-a029-c574f7a69931)
+
 ![Modeling_evaluation_results](https://github.com/aaghouse/ML_UsedCarsPrice/assets/90729963/1b6f9314-b008-4d7f-9413-6ddf194ffd16)
 
 ## Summary

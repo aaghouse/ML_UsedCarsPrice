@@ -14,7 +14,7 @@ In this application, you will explore a dataset from kaggle. The original datase
 ![Modeling_evaluation_results](https://github.com/aaghouse/ML_UsedCarsPrice/assets/90729963/1b6f9314-b008-4d7f-9413-6ddf194ffd16)
 
 ## Summary
-Data Science and Input data Input data is critical to data science, prediction models and stability of the prediction models. Other way of looking at it is garbege in garbege out. Quality data in will produce Quality prediction results and study.
+In Data Science input data is critical to data science, prediction models and stability of the prediction models. Other way of looking at it is garbege in garbege out. Quality data in will produce Quality prediction results and study.
 
 Input data has a total of 426880 records. Some of the critical data such as price and odometer has zero values, (7.7% and 0.46%) respectively. This can be effectively treated and we did that to derive meaningful results.
 

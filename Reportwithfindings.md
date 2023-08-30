@@ -5,8 +5,7 @@ We are provided with a dataset of used car sales with 426k cars or transactions 
 Data Understanding & Data Prepatation(cleaning and sanitizing):
 
 <Input Data understanding image> 
-![image](https://github.com/aaghouse/ML_UsedCarsPrice/assets/90729963/4be812a3-4b7e-4419-a188-0c8539b7f264)
-
+![Input_data_level_of_inconsistancies_on_input](https://github.com/aaghouse/ML_UsedCarsPrice/assets/90729963/16e5d85b-8bb1-4d3d-89d7-811add14a031)
 
 (1) Data Cleaning, dropping all rows with Nan/Zero values the size reduced from [426880 rows to 80170 rows] Dropping 82% of the data set would yield bad results. Hence Imputing values (with KNNImputer) that are missign/zero are essential. This was done to treat all zero and missing values in price and odometer.
 
@@ -31,13 +30,15 @@ Scoring model with reduced features:
 <correlation heatmep image>
 <IVF with all features image>
 <IVF removing cylinder and year feature image>
+![VIF_to_reduce_model_complexity](https://github.com/aaghouse/ML_UsedCarsPrice/assets/90729963/e9c9e9cb-a82e-4657-b161-cd7304f344ae)
+![VIF_to_reduce_model_complexity_reduced](https://github.com/aaghouse/ML_UsedCarsPrice/assets/90729963/966a827e-c1c9-499a-8e82-20ffca2c0563)
 
 Tried scoring on Ridge, LASSO, and Linear regression.
 LinearRegression performend better (poly degree=1), MSE on test dataset improved slightly as well.
 Performed GridSearch on hyperparameters on this LinearRegression model and decided on model__fit_intercept: False & model__positive: True this improved the model performance a ittle better with improved MSE on test dataset as well.
 
 <Modeling Image with results and decision factors>
-
+![Modeling_evaluation_results](https://github.com/aaghouse/ML_UsedCarsPrice/assets/90729963/a15bdbfb-ba59-4397-9da9-76385b3750f2)
 Summary:
 
 Summary Input dataset for Analysis is missing critical large 80+% which contributes to a large extent negative model stability. Given the data set we can say region_state where used cars are sold and odomer reading are the most critical to get the best price for the car.

@@ -1,4 +1,5 @@
 ##Business Understanding
+
 We are provided with a dataset of used car sales with 426k cars or transactions or records. Our task is to analyze the data using the industry standard CRISP-DM processes and identify key drivers for the car prices. Make necessary recomendation to the dealership.
 
 ##Data Understanding & Data Prepatation(cleaning and sanitizing)

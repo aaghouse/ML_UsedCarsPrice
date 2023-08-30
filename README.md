@@ -13,6 +13,8 @@ In this application, you will explore a dataset from kaggle. The original datase
 
 ![Modeling_evaluation_results](https://github.com/aaghouse/ML_UsedCarsPrice/assets/90729963/1b6f9314-b008-4d7f-9413-6ddf194ffd16)
 
+![Choosen_model_prediction_vs_test_data_sample_for_the_client](https://github.com/aaghouse/ML_UsedCarsPrice/assets/90729963/986c7d99-a601-45c1-9b55-ff891bfe8414)
+
 ## Summary
 Input data is critical to data science, prediction models and stability of the models. Other way of looking at it is garbege in garbege out. Quality data in will produce Quality prediction results and valuable study.
 

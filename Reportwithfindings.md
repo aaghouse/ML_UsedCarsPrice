@@ -51,6 +51,7 @@ GridSearch was performed to decide the hyper parameters on LinearRegression Mode
 IVF and Correlatoin heatmaps were used to decide on model complexity/feature reduction.
 
 <Modeling Image with results and decision factors>
+
 ![Modeling_evaluation_results](https://github.com/aaghouse/ML_UsedCarsPrice/assets/90729963/a15bdbfb-ba59-4397-9da9-76385b3750f2)
 
 Summary:

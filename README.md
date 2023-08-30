@@ -4,8 +4,8 @@ What drives the price of a used car?
 
 In this application, you will explore a dataset from kaggle. The original dataset contained information on 3 million used cars. The provided dataset contains information on 426K cars to ensure speed of processing. Your goal is to understand what factors make a car more or less expensive. As a result of your analysis, you should provide clear recommendations to your client -- a used car dealership -- as to what consumers value in a used car.
 
-# Input Dateset:
-# Google colab Notebook location: https://github.com/aaghouse/ML_UsedCarsPrice/blob/main/What_features_are_valuable_in_used_car.ipynb
+## Input Dateset:
+## Google colab Notebook location: https://github.com/aaghouse/ML_UsedCarsPrice/blob/main/What_features_are_valuable_in_used_car.ipynb
 
 ## Summary
 Data Science and Input data Input data is critical to data science, prediction models and stability of the prediction models. Other way of looking at it is garbege in garbege out. Quality data in will produce Quality prediction results and study.
